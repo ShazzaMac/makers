@@ -33,8 +33,14 @@ print(first_letters)
 print("")
 print("Function: add_one_hundred_to_numbers")
 
-# Return a new list of each number with 100 added
+
 def add_one_hundred_to_numbers(numbers):
+
+  numbers_plus_hundred = []  # This is our accumulator
+  # It will hold the new list of numbers
+  for number in numbers:
+    numbers_plus_hundred.append(number + 100)
+  return numbers_plus_hundred
   pass
 
 check_that_these_are_equal(
