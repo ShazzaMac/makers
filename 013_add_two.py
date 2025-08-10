@@ -12,7 +12,11 @@ from lib.helpers import check_that_these_are_equal
 
 # YOUR FUNCTION GOES BELOW THIS LINE
 
-
+def add_two(number):
+    return number + 2
+print ("add_two(6) returns:")
+print(add_two(6))
+print(add_two(8))
 
 # YOUR FUNCTION GOES ABOVE THIS LINE
 
